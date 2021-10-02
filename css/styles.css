@@ -1,0 +1,21 @@
+body{
+  background: #EAF6F6;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+}
+
+.left_cont {
+    /* width:  30%;            /* 幅指定 */ 
+    display: inline-block;  /* インラインブロックにする */
+    border: solid 1px;      /* 枠線指定 */
+}
+
+.left_cont-inner {
+    padding:  10px;         /* 余白指定 */
+}
